@@ -22,18 +22,18 @@ The tool produces four outputs for every query:
 
 ```
 ┌─────────────────────────────────────────────────────┐
-│                   Desktop Window                     │
-│              (PyWebview / System Browser)            │
+│                   Desktop Window                    │
+│              (PyWebview / System Browser)           │
 └────────────────────┬────────────────────────────────┘
                      │ HTTP localhost:8000
 ┌────────────────────▼────────────────────────────────┐
-│                  FastAPI Backend                     │
-│   ┌─────────────┐   ┌──────────────────────────┐   │
-│   │  app/main.py │   │      app/engine.py        │   │
-│   │  REST API    │   │  LangChain + Groq LLM     │   │
-│   │  + Static    │   │  Synthetic RAG pipeline   │   │
-│   │  File Server │   │  llama-3.3-70b-versatile  │   │
-│   └─────────────┘   └──────────────────────────┘   │
+│                  FastAPI Backend                    │
+│   ┌─────────────┐   ┌──────────────────────────┐    │
+│   │  app/main.py │  │      app/engine.py       │    │
+│   │  REST API    │  │  LangChain + Groq LLM    │    │
+│   │  + Static    │  │  Synthetic RAG pipeline  │    │
+│   │  File Server │  │  llama-3.3-70b-versatile │    │
+│   └─────────────┘   └──────────────────────────┘    │
 └─────────────────────────────────────────────────────┘
                      │ serves
 ┌────────────────────▼────────────────────────────────┐
