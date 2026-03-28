@@ -1,0 +1,29 @@
+# ST Competitive Intelligence RAG — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# ── Core LLM Stack ────────────────────────────────────────────────────────────
+langchain
+langchain-core
+langchain-groq
+groq
+
+# ── API Backend ───────────────────────────────────────────────────────────────
+fastapi
+uvicorn[standard]
+pydantic
+
+# ── Streamlit UI ──────────────────────────────────────────────────────────────
+streamlit
+pandas
+
+# ── Configuration ─────────────────────────────────────────────────────────────
+python-dotenv
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+httpx      # Used internally by Groq SDK
+
+pyinstaller 
+
+pywebview
+
+truststore

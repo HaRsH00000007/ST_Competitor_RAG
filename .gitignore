@@ -1,0 +1,10 @@
+venv/
+node_modules/
+__pycache__/
+*.pyc
+.env
+
+# VERY IMPORTANT
+exe_output/
+*.dll
+*.pyd
