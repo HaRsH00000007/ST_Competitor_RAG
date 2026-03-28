@@ -29,16 +29,16 @@ The tool produces four outputs for every query:
 ┌────────────────────▼────────────────────────────────┐
 │                  FastAPI Backend                    │
 │   ┌─────────────┐   ┌──────────────────────────┐    │
-│   │  app/main.py │  │      app/engine.py       │    │
-│   │  REST API    │  │  LangChain + Groq LLM    │    │
-│   │  + Static    │  │  Synthetic RAG pipeline  │    │
-│   │  File Server │  │  llama-3.3-70b-versatile │    │
+│   │  app/main.py│   │      app/engine.py       │    │
+│   │  REST API   │   │  LangChain + Groq LLM    │    │
+│   │  + Static   │   │  Synthetic RAG pipeline  │    │
+│   │  File Server│   │  llama-3.3-70b-versatile │    │
 │   └─────────────┘   └──────────────────────────┘    │
 └─────────────────────────────────────────────────────┘
                      │ serves
 ┌────────────────────▼────────────────────────────────┐
-│              React Frontend (dist/)                  │
-│         TypeScript + Tailwind CSS + Vite             │
+│              React Frontend (dist/)                 │
+│         TypeScript + Tailwind CSS + Vite            │
 └─────────────────────────────────────────────────────┘
 ```
 
